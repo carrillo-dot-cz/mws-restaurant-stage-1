@@ -11,15 +11,15 @@
 
 <body>
   <header>
-    <nav>
-      <h1><a href="/">Restaurant Reviews</a></h1>
-    </nav>
+    <!-- Removed the <nav> item as this is the title, not a naving feature -->
+      <h1><a href="/" title="Get Restaurant reviews from this location">Restaurant Reviews</a></h1>
   </header>
 
   <main id="maincontent">
     <section id="map-container">
       <div id="map"></div>
     </section>
+
     <section>
       <div class="filter-options">
         <h2>Filter Results</h2>
@@ -36,7 +36,7 @@
 
   <script type="application/javascript" charset="utf-8" src="js/dbhelper.js"></script>
   <script type="application/javascript" charset="utf-8" src="js/main.js"></script>
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBx5sCuqQ2QrCKIk5YmjxBNiHSpe1bBq9U&libraries=places&callback=initMap"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBx5sCuqQ2QrCKIk5YmjxBNiHSpe1bBq9U&libraries=places&callback=initMap" async defer></script>
 
 
   <footer id="footer">

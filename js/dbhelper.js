@@ -10,6 +10,7 @@ class DBHelper {
   static get DATABASE_URL() {
      // No port required, we did configure JSON mime types in Azure to be able to read such file
       return `http://www.spanelstina-hrncire.cz/jorge/data/restaurants.json`;
+    
   }
 
   /**
