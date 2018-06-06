@@ -8,8 +8,8 @@ class DBHelper {
    * Change this to restaurants.json file location on your server.
    */
   static get DATABASE_URL() {
-    const port = 8000 // Change this to your server port
-    return `http://localhost:${port}/data/restaurants.json`;
+     // No port required, we did configure JSON mime types in Azure to be able to read such file
+      return `http://www.spanelstina-hrncire.cz/jorge/data/restaurants.json`;
   }
 
   /**
