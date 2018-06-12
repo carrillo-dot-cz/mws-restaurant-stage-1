@@ -59,7 +59,7 @@ header h1 {
   margin: auto;
 }
 
-header h1 a {
+header h1 {
   color: #fff;
   font-size: 14pt;
   font-weight: 200;
@@ -274,3 +274,16 @@ header h1 a {
 #restaurant-hours td {
   color: #666;
 }
+.skip-link{
+    position: absolute;
+    top: -40px;
+    left:0;
+    background: #bf1722;
+    color: white;
+    padding: 8px;
+    z-index: 100;
+}
+
+    .skip-link:focus {
+    top:0;
+    }
