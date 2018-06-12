@@ -17,22 +17,22 @@
   </header>
 
   <main id="maincontent">
-    <section id="map-container">
-      <div id="map"></div>
-    </section>
+     <nav  id="mainsection">
+          <div class="filter-options">
+              <h2>Filter Results</h2>
+              <select id="neighborhoods-select" name="neighborhoods" onchange="updateRestaurants()">
+                  <option value="all">All Neighborhoods</option>
+              </select>
+              <select id="cuisines-select" name="cuisines" onchange="updateRestaurants()">
+                  <option value="all">All Cuisines</option>
+              </select>
+          </div>
+          <ul id="restaurants-list"></ul>
+      </nav>
 
-    <section>
-      <div class="filter-options" id="mainsection">
-        <h2>Filter Results</h2>
-        <select id="neighborhoods-select" name="neighborhoods" onchange="updateRestaurants()">
-          <option value="all">All Neighborhoods</option>
-        </select>
-        <select id="cuisines-select" name="cuisines" onchange="updateRestaurants()">
-          <option value="all">All Cuisines</option>
-        </select>
-      </div>
-      <ul id="restaurants-list"></ul>
-    </section>
+      <section id="map-container">
+          <div id="map"></div>
+      </section>
   </main>
 
   <script type="application/javascript" charset="utf-8" src="js/dbhelper.js"></script>
