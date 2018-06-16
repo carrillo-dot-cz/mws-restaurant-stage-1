@@ -161,7 +161,7 @@ createRestaurantHTML = (restaurant) => {
   li.append(more)
 
   return li
-}
+}   
 
 /**
  * Add markers for current restaurants to the map.
