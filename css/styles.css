@@ -36,15 +36,7 @@ html {
     [class*='col-'] {
         float: left;
     }
-
-   #restaurants-list{
-       max-width: 40%;
-
-   }
-
-   #map-container{
-       max-width: 60%;
-   }
+ 
    
     /* Column Third */
     .col-1-3 {
