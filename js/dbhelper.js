@@ -191,7 +191,7 @@ class DBHelper {
           content: contentString
       });
 
-      marker.addListener('click', function () {
+      marker.addListener('mouseover', function () {
           infowindow.open(map, marker);
       });
 
