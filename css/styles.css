@@ -34,7 +34,7 @@ html {
 /* Media Query excludes extra small devices and includes small and above */
 @media (min-width: 48em) {
     [class*='col-'] {
-        float: right;
+        float: left;
     }
  
     /* Column Third */
