@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
+    "\\css",
+    "\\img",
     "\\js"
   ],
-  "SelectedNode": "\\js\\dbhelper.js",
+  "SelectedNode": "\\restaurant.html",
   "PreviewInSolutionExplorer": false
 }
