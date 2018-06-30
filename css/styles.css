@@ -77,12 +77,12 @@ a:hover, a:focus, select:hover, select:focus {
 
 
 
-:active {
-    color: #3397db;
-    outline: 2px dashed red;
-    text-decoration: none;
-    transform: scale(0.8);
-}
+    a:hover, a:focus, select:hover, select:focus {
+        color: #3397db;
+        outline: 2px dashed red;
+        text-decoration: none;
+        transform: scale(0.8);
+    }
 
 
 
