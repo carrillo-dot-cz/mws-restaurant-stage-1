@@ -31,12 +31,12 @@ html {
     padding-right: 15px;
 }
 
-/* Media Query excludes extra small devices and includes small and above */
-@media (min-width: 48em) {
+/* Media Query for mobiles*/
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
     [class*='col-'] {
         float: left;
     }
- 
+
     /* Column Third */
     .col-1-3 {
         width: 33.3333%;
