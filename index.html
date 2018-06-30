@@ -10,13 +10,13 @@
 </head>
 
 <body class="main">
-    <header class="row">
+    <header class="row" role="banner">
         <!-- Removed the <nav> item as this is the title, not a naving feature -->
         <a href="#neighborhoods-select" class="skip-link">Skip to main content</a>
         <h1> <a href="./">Restaurant Reviews</a> </h1>
     </header>
 
-    <nav class="row">
+    <nav class="row" role="navigation">
         <div class="filter-options">
             <!-- Adding labels to the select, to make it more accessible -->
                 <fieldset>
@@ -33,7 +33,7 @@
                 </fieldset>
        </div>
     </nav>
-    <main class="row maincontent">
+    <main class="row maincontent" role="main">
         <div class="col-1-3"> <ul id="restaurants-list"></ul></div>
         <section id="map-container" class="col-2-3">
             <div id="map"></div>
@@ -42,7 +42,7 @@
 
  
 
-    <footer id="footer">
+    <footer id="footer" role="contentinfo">
         Copyright (c) 2017 <a href="/"><strong>Restaurant Reviews</strong></a> All Rights Reserved.
     </footer>
 

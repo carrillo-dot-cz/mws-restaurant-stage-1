@@ -32,7 +32,7 @@ html {
 }
 
 /* Media Query excludes extra small devices and includes small and above */
-@media (min-width: 48em) {
+@media (max-width: 420px) {
     [class*='col-'] {
         float: left;
     }
@@ -71,20 +71,9 @@ a {
 }
 a:hover, a:focus, select:hover, select:focus {
     color: #3397db;
-    outline: 2px dashed red;
+    outline: 2px dotted #fff;
     text-decoration: none;
 }
-
-
-
-    a:hover, a:focus, select:hover, select:focus {
-        color: #3397db;
-        outline: 2px dashed red;
-        text-decoration: none;
-        transform: scale(0.8);
-    }
-
-
 
 
 a img{
