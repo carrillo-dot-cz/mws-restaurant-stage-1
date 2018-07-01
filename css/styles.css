@@ -31,11 +31,13 @@ html {
     padding-right: 15px;
 }
 
+ 
 /* Media Query excludes extra small devices and includes small and above */
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+@media (min-width: 34em) {
     [class*='col-'] {
         float: left;
     }
+
 
     /* Column Third */
     .col-1-3 {
