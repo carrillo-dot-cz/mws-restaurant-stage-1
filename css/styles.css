@@ -33,7 +33,7 @@ html {
 
  
 /* Media Query excludes extra small devices and includes small and above */
-@media (min-width: 34em) {
+@media (max-width: 575px) {
     [class*='col-'] {
         float: left;
     }
@@ -75,6 +75,7 @@ a:hover, a:focus, select:hover, select:focus {
     color: #3397db;
     outline: 2px dotted #fff;
     text-decoration: none;
+    box-shadow: black 3px 3px;
 }
 
 
