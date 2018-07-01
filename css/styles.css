@@ -18,12 +18,25 @@ html {
     box-sizing: inherit;
 }
 
+
 /***************************
 ****************************
 Base Styles
 ****************************
 ***************************/
+#skip-link {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background: #bf1722;
+    color: white;
+    padding: 8px;
+    z-index: 100;
+}
 
+    #skip-link:focus {
+        top: 0;
+    }
 
 /***************************
 ****************************
@@ -242,23 +255,23 @@ header {
   background-color: #3397DB;
   align-items: center;
 }
-.filter-options legend {
-        color: white;
-        font-size: 1.2rem;
-        font-weight: normal;
-        line-height: 1;
-        margin: 0 20px;
-    }
-.filter-options select {
-  background-color: white;
-  border: 1px solid #fff;
-  font-family: Arial,sans-serif;
-  font-size: 11pt;
-  height: 35px;
-  letter-spacing: 0;
-  /*margin: 10px;
+fieldset legend, fieldset label {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: normal;
+    line-height: 1;
+    margin: 0 20px;
+}
+fieldset select {
+    background-color: white;
+    border: 1px solid #fff;
+    font-family: Arial,sans-serif;
+    font-size: 11pt;
+    height: 35px;
+    letter-spacing: 0;
+    /*margin: 10px;
   padding: 0 10px;
-  width: 200px;*/
+  width: 200px;
 }
 
     .filter-options label {
@@ -267,7 +280,7 @@ header {
         font-weight: normal;
       
      
-    }
+    }*/
 /* ====================== Restaurant Listing ====================== */
 #restaurants-list {
   background-color: #f3f3f3;
@@ -412,16 +425,3 @@ header {
 #restaurant-hours td {
   color: #666;
 }
-.skip-link{
-    position: absolute;
-    top: -40px;
-    left:0;
-    background: #bf1722;
-    color: white;
-    padding: 8px;
-    z-index: 100;
-}
-
-    .skip-link:focus {
-    top:0;
-    }
