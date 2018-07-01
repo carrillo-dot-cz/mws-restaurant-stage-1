@@ -146,8 +146,8 @@ createRestaurantHTML = (restaurant) => {
   li.append(image);
 
   const name = document.createElement('h2');
-  name.innerHTML = restaurant.name;
-  li.append(name);
+    name.innerHTML = restaurant.id + ' ' + restaurant.name;
+  li.append(name);restaurant.name
 
   const neighborhood = document.createElement('p');
   neighborhood.innerHTML = restaurant.neighborhood;
