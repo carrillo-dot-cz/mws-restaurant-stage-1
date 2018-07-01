@@ -161,7 +161,7 @@ class DBHelper {
     const marker = new google.maps.Marker({
       position: restaurant.latlng,
         title: restaurant.name,
-        label: restaurant.id,
+        label: restaurant.id.toString(),
       url: DBHelper.urlForRestaurant(restaurant),
       map: map,
       animation: google.maps.Animation.DROP}
