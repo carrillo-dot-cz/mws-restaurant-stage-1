@@ -111,9 +111,9 @@ Theme Styles
     .filter-options legend, .filter-options select {
         font-size: 1.5em;
     }
-
-    .filter-options {
-        height: 170px;
+        
+    fieldset {
+        height: 100%;
     }
 }
 /* Small devices (tablets, 768px and up) */
