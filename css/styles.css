@@ -37,7 +37,13 @@ html {
     [class*='col-'] {
         float: left;
     }
+    .filter-options legend, .filter-options select {
+        font-size: 1.5em;
+    }
 
+    .filter-options {
+       height: 170px;
+    }
 
     /* Column Third */
     .col-1-3 {
@@ -228,7 +234,7 @@ header h1 {
 #restaurants-list li h2 {
   color: #f18200;
   font-family: Arial,sans-serif;
-  /*font-size: 1em;*/
+  font-size: 1.5em;
   font-weight: 200;
   letter-spacing: 0;
   line-height: 1.3;
