@@ -94,7 +94,7 @@ Theme Styles
 
  
 /* Extra small devices (phones, up to 480px) */
-@media screen and (min-width: 48em) {
+@media (min-width: 48em){
     [class*='col-'] {
         float: left;
     }
