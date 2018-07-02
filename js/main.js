@@ -78,11 +78,23 @@ window.initMap = () => {
   self.map = new google.maps.Map(document.getElementById('map'), {
     zoom: 12,
       center: loc,
-      disableDefaultUI: true,
     scrollwheel: false
   });
-  updateRestaurants();
+    updateRestaurants();
+    removeTab();
 }
+
+/**
+ * Remove tab
+ * **/
+
+function removeTab() {
+    const mapNodes = document.getElementById('map').childNodes;
+    mapNodes.forEach(function (item) {
+        mapNodes[item].setAttribute("tabindex", "-1");
+    });
+}
+
 
 /**
  * Update page and map for current restaurants.
