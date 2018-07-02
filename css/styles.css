@@ -149,7 +149,7 @@ a {
 	color: orange;
 	text-decoration: none;
 }
-a:hover, a:focus, select:hover, select:focus {
+a:hover, a:focus, select:hover, select:focus, aside:hover, aside:focus {
     color: #3397db;
     outline: 2px dotted #fff;
     text-decoration: none;
