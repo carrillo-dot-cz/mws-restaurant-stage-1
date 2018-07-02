@@ -151,9 +151,9 @@ a {
 }
 a:hover, a:focus, select:hover, select:focus, aside:hover, aside:focus {
     color: #3397db;
-    outline: 3px dotted red;
+    outline: 4px dotted #fff;
     text-decoration: none;
-    box-shadow: yellow 3px 3px;
+    box-shadow: black 3px 3px;
 }
 
 
