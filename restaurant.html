@@ -2,37 +2,41 @@
 <html lang="en">
 
 <head>
-  <!-- Normalize.css for better cross-browser consistency -->
-  <link rel="stylesheet" src="//normalize-css.googlecode.com/svn/trunk/normalize.css" />
-  <!-- Main CSS file -->
-  <link rel="stylesheet" href="css/styles.css" type="text/css">
-  <title>Restaurant Info</title>
-  <meta name="description" content="Prototype project for UDACITY as part of WebDevelopment project. This is a restaurant"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Detail of a Restaurant Reviews</title>
+    <meta name="description" content="Prototype project for UDACITY as part of WebDevelopment project. Description of a restaurant" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
+ 
 
-<body class="inside">
+<body>
   <!-- Beginning header -->
-  <header>
-    <!-- Beginning nav -->
-    <nav>
-      <h1><a href="/">Restaurant Reviews</a></h1>
-    </nav>
-    <!-- Beginning breadcrumb -->
-    <ul id="breadcrumb" >
-      <li><a href="/">Home</a></li>
-    </ul>
+  <header class="container">
+      <div class="row" aria-labelledby="h1nav">
+          <a href="#maincontent" id="skip-link">Skip to main content</a>
+
+          <h1 id="h1nav"><a href="/">Details for a Restaurant Reviews</a></h1>
+
+          <!-- Beginning breadcrumb -->
+          <nav>
+              <ul id="breadcrumb">
+                  <li><a href="/">Home</a></li>
+              </ul>
+          </nav>
+      </div>
     <!-- End breadcrumb -->
     <!-- End nav -->
   </header>
   <!-- End header -->
 
   <!-- Beginning main -->
-  <main id="maincontent">
+  <main id="maincontent" class="container">
     <!-- Beginning map -->
-    <section id="map-container">
-      <div id="map"></div>
-    </section>
+      <div class="col-2-3">
+          <section id="map-container">
+              <div id="map"></div>
+          </section>
+      </div>
     <!-- End map -->
     <!-- Beginning restaurant -->
     <section id="restaurant-container">
