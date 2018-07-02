@@ -163,7 +163,8 @@ class DBHelper {
         title: restaurant.name,
         label: restaurant.id.toString(),
       url: DBHelper.urlForRestaurant(restaurant),
-      map: map,
+        map: map,
+        disableDefaultUI: true,
       animation: google.maps.Animation.DROP}
     );
 
