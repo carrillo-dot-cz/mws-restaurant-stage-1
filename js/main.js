@@ -81,22 +81,10 @@ window.initMap = () => {
     scrollwheel: false
   });
     updateRestaurants();
-    removeTab();
-}
-
-/**
- * Remove tab
- * **/
-
-function removeTab() {
-    let mapNodes = document.querySelectorAll('[tabindex]');
-    for (let i = 0; i < mapNodes.length; i++) {
-        mapNodes[i].setAttribute('tabindex', '-1');
-    }
-
  
 }
 
+ 
 
 /**
  * Update page and map for current restaurants.
