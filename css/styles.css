@@ -311,7 +311,7 @@ fieldset select {
   margin: 20px 0 10px;
   text-transform: uppercase;
 }
-#restaurants-list p {
+#restaurants-list address {
   margin: 0;
   font-size: 0.8em;
 }
