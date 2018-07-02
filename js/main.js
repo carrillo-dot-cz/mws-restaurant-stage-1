@@ -89,7 +89,7 @@ window.initMap = () => {
  * **/
 
 function removeTab() {
-    let mapNodes = document.getElementById('map').getElementsByTagName('a');
+    let mapNodes = document.querySelectorAll('[tabindex]');
     for (let i = 0; i < mapNodes.length; i++) {
         mapNodes[i].setAttribute('tabindex', '-1');
     }
