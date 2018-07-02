@@ -77,7 +77,8 @@ window.initMap = () => {
   };
   self.map = new google.maps.Map(document.getElementById('map'), {
     zoom: 12,
-    center: loc,
+      center: loc,
+      disableDefaultUI: true,
     scrollwheel: false
   });
   updateRestaurants();

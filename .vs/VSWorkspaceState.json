@@ -2,9 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\css",
+    "\\data",
     "\\img",
     "\\js"
   ],
-  "SelectedNode": "\\index.html",
+  "SelectedNode": "\\js\\dbhelper.js",
   "PreviewInSolutionExplorer": false
 }
