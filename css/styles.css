@@ -24,7 +24,7 @@ html {
 Base Styles
 ****************************
 ***************************/
-#skip-link {
+#skip-link, #skip-map {
     position: absolute;
     top: -40px;
     left: 0;
