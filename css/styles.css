@@ -157,12 +157,11 @@ a {
         box-shadow: black 3px 3px;
     }
 
-  [tabindex='0']:focus {
-        color: #3397db;
-        outline: 2px dashed #fff;
-        font-weight: 200;
-        box-shadow: black 2px 1px;
-    }
+[tabindex='0']:focus {
+    outline: 2px dashed #fff;
+    font-weight: 200;
+    box-shadow: 2px 2px 2px gray;
+}
 
 
 a img{
