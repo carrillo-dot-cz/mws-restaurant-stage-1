@@ -279,9 +279,9 @@ fieldset select {
 /* ====================== Restaurant Listing ====================== */
 #restaurants-list {
   background-color: #f3f3f3;
-  list-style: outside none none;
+  /*list-style: outside none none;
   margin: 0;
-  padding: 15px 5px 30px;
+  padding: 15px 5px 30px;*/
   text-align: center;
 }
 #restaurants-list li {
