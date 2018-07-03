@@ -112,7 +112,7 @@ fillReviewsHTML = (reviews = self.restaurant.reviews) => {
   }
   const ul = document.getElementById('reviews-list');
   reviews.forEach(review => {
-    ul.appendChild(createReviewHTML(review));
+      ul.appendChild(createReviewHTML(review));
   });
   container.appendChild(ul);
 }
@@ -124,7 +124,8 @@ createReviewHTML = (review) => {
   const li = document.createElement('li');
   const name = document.createElement('p');
   name.innerHTML = review.name;
-  li.appendChild(name);
+    li.appendChild(name);
+    li.setAttribute('tabindex', '1');
 
   const date = document.createElement('p');
   date.innerHTML = review.date;
