@@ -150,12 +150,12 @@ a {
 	color: orange;
 	text-decoration: none;
 }
-a:hover, a:focus, select:hover, select:focus, aside:hover, aside:focus {
-    color: #3397db;
-    outline: 4px dotted #fff;
-    text-decoration: none;
-    box-shadow: black 3px 3px;
-}
+    a:hover, a:focus, select:hover, select:focus, aside:hover, aside:focus, [tabindex='0']:hover, [tabindex='0']:focus {
+        color: #3397db;
+        outline: 4px dotted #fff;
+        text-decoration: none;
+        box-shadow: black 3px 3px;
+    }
 
 
 a img{
