@@ -3,7 +3,7 @@
 
 <head>
     <link rel="stylesheet" href="css/styles.css">
-    <title>Details for Restaurant Reviews</title>
+    <title id="reviewDetails">Restaurant Reviews - Restaurant: </title>
     <meta name="description" content="Prototype project for UDACITY as part of WebDevelopment project. Description of a restaurant" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
@@ -13,7 +13,7 @@
   <!-- Beginning header -->
     <div class="container">
         <header class="row background-tertiary" role="banner" aria-labelledby="h1nav">
-            <a href="#maincontent" id="skip-link">Skip to main content</a>
+            <a href="#reviewsDetails" id="skip-link">Skip to main content</a>
 
             <h1 id="h1nav"><a href="/">Restaurant Reviews</a></h1>
         </header>
@@ -29,7 +29,7 @@
   <!-- Beginning main -->
   <main class="container">
       <div class="row">
-          <div class="col-2-3">
+          <div class="col-2-3" id="reviewsDetails" aria-labelledby="restaurant-container">
               <section id="restaurant-container">
                   <h1 id="restaurant-name"></h1>
                   <img id="restaurant-img">
