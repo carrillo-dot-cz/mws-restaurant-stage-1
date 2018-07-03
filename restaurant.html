@@ -15,7 +15,7 @@
         <header class="row background-tertiary" role="banner" aria-labelledby="h1nav">
             <a href="#reviewsDetails" id="skip-link">Skip to main content</a>
 
-            <h1 id="h1nav"><a href="/">Restaurant Reviews</a></h1>
+            <h1 id="h1nav"><a href="/" tabindex="-1">Restaurant Reviews</a></h1>
         </header>
             <nav class=" row background-secondary">
                 <ul id="breadcrumb">
@@ -29,7 +29,7 @@
   <!-- Beginning main -->
   <main class="container">
       <div class="row">
-          <div class="col-2-3" id="reviewsDetails" aria-labelledby="restaurant-container" tabindex="1">
+          <div class="col-2-3" id="reviewsDetails" aria-labelledby="restaurant-name" tabindex="0">
               <section id="restaurant-container">
                   <h1 id="restaurant-name"></h1>
                   <img id="restaurant-img">
@@ -39,7 +39,7 @@
               </section>
               <!-- end restaurant -->
               <!-- Beginning reviews -->
-              <section id="reviews-container">
+              <section id="reviews-container" tabindex="0" aria-label="Review list">
                   <ul id="reviews-list"></ul>
               </section>
           </div>
