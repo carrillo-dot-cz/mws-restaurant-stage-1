@@ -139,27 +139,26 @@ h1 {
     background-color: #ccc;
 }
 
-fieldset {
+select {
+    display: inline;
     width: 100%;
     background-color: #3397DB;
     align-items: center;
-}
-
-    fieldset legend, fieldset label {
-        color: #FFF;
+ 
+        /*color: #FFF;*/
         font-size: 1.2rem;
         font-weight: 400;
-        line-height: 1;
-        margin: 0 20px;
-    }
 
-    fieldset select {
+        margin-right: 10px;
+ 
+ 
         background-color: #FFF;
         border: 1px solid #fff;
         font-family: Arial,sans-serif;
-        font-size: 11pt;
-        height: 35px;
-        letter-spacing: 0;
+        padding:5px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+  
     }
 
 #restaurants-list {
@@ -315,6 +314,9 @@ fieldset {
         width: 33.3333%;
     }
 
+    .col-1-1 {
+        width: 50%;
+    }
     .col-2-3 {
         width: 66.6666%;
     }
@@ -323,8 +325,5 @@ fieldset {
         font-size: 1.5em;
     }
 
-    label {
-        display: inline-block;
-    }
-
+ 
 }
